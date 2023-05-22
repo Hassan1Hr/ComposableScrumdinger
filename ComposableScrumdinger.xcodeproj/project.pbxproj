@@ -20,6 +20,8 @@
 		047421242A1BCF1F00B9B04A /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047421232A1BCF1F00B9B04A /* ScrumStore.swift */; };
 		047421262A1BE96F00B9B04A /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047421252A1BE96F00B9B04A /* ErrorWrapper.swift */; };
 		047421282A1BE97D00B9B04A /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047421272A1BE97D00B9B04A /* ErrorView.swift */; };
+		0474212A2A1C214A00B9B04A /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047421292A1C214A00B9B04A /* MeetingTimerView.swift */; };
+		0474212C2A1C216100B9B04A /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474212B2A1C216100B9B04A /* ScrumTimer.swift */; };
 		0492EA452A1A60A700114DAD /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492EA442A1A60A700114DAD /* MeetingHeaderView.swift */; };
 		0492EA472A1A61BC00114DAD /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492EA462A1A61BC00114DAD /* ScrumProgressViewStyle.swift */; };
 		0492EA492A1A620000114DAD /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492EA482A1A620000114DAD /* ScrumTimer.swift */; };
@@ -47,6 +49,8 @@
 		047421232A1BCF1F00B9B04A /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		047421252A1BE96F00B9B04A /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		047421272A1BE97D00B9B04A /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		047421292A1C214A00B9B04A /* MeetingTimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		0474212B2A1C216100B9B04A /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScrumTimer.swift; path = ../../../../../Downloads/DrawingTheTimerView/Complete/Scrumdinger/Models/ScrumTimer.swift; sourceTree = "<group>"; };
 		0492EA442A1A60A700114DAD /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		0492EA462A1A61BC00114DAD /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		0492EA482A1A620000114DAD /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 				04D460F32A19ADAB0027A163 /* ThemePicker.swift */,
 				04D460EF2A19AA6A0027A163 /* DetailEditView.swift */,
 				04043A902A18F37D00172E63 /* TrailingIconLabelStyle.swift */,
+				047421292A1C214A00B9B04A /* MeetingTimerView.swift */,
 				04043A7D2A18DC6B00172E63 /* MeetingView.swift */,
 				0492EA4E2A1A6A1600114DAD /* NewScrumSheet.swift */,
 				0492EA4A2A1A63EE00114DAD /* MeetingFooterView.swift */,
@@ -123,6 +128,7 @@
 			children = (
 				0492EA4C2A1A68FD00114DAD /* AVPlayer+Ding.swift */,
 				04043A8A2A18ED8300172E63 /* Theme.swift */,
+				0474212B2A1C216100B9B04A /* ScrumTimer.swift */,
 				04043A8C2A18EE4200172E63 /* DailyScrum.swift */,
 				047421232A1BCF1F00B9B04A /* ScrumStore.swift */,
 				047421252A1BE96F00B9B04A /* ErrorWrapper.swift */,
@@ -208,6 +214,8 @@
 				0492EA4B2A1A63EE00114DAD /* MeetingFooterView.swift in Sources */,
 				047421282A1BE97D00B9B04A /* ErrorView.swift in Sources */,
 				0492EA492A1A620000114DAD /* ScrumTimer.swift in Sources */,
+				0474212A2A1C214A00B9B04A /* MeetingTimerView.swift in Sources */,
+				0474212C2A1C216100B9B04A /* ScrumTimer.swift in Sources */,
 				04043A8D2A18EE4200172E63 /* DailyScrum.swift in Sources */,
 				04043A952A19318100172E63 /* DetailView.swift in Sources */,
 				047421262A1BE96F00B9B04A /* ErrorWrapper.swift in Sources */,
