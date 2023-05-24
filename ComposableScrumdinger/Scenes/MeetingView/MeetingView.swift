@@ -12,7 +12,7 @@ struct MeetingView: View {
     @Binding var scrum: DailyScrum
     @StateObject var scrumTimer = ScrumTimer()
     @StateObject var speechRecognizer = SpeechRecognizer()
-    @State var isRecording: Bool = false
+    @State private var isRecording = false
     
     private var player: AVPlayer { AVPlayer.sharedDingPlayer }
     
@@ -24,8 +24,7 @@ struct MeetingView: View {
                 MeetingHeaderView(secondsElapsed: scrumTimer.secondsElapsed,
                                   secondsRemaining: scrumTimer.secondsRemaining,
                                   theme: scrum.theme)
-                Circle()
-                    .strokeBorder(lineWidth: 24)
+                MeetingTimerView(speakers: scrumTimer.speakers, isRecording: isRecording, theme: scrum.theme)
                 MeetingFooterView(speakers: scrumTimer.speakers, skipAction: scrumTimer.skipSpeaker)
                 
             }
