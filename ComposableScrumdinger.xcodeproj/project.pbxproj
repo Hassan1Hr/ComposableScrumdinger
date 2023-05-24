@@ -146,10 +146,10 @@
 		04621F482A1E452F00D9C769 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				04621F4C2A1E48B800D9C769 /* HistoryView */,
 				04621F4B2A1E45CA00D9C769 /* HomeScrumView */,
 				04621F472A1E450000D9C769 /* MeetingView */,
 				04621F492A1E453E00D9C769 /* DetailView */,
+				04621F4C2A1E48B800D9C769 /* HistoryView */,
 				04621F4A2A1E45B300D9C769 /* HelperViews */,
 			);
 			path = Scenes;
