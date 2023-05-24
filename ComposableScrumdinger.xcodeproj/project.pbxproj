@@ -34,6 +34,7 @@
 		04D460F02A19AA6A0027A163 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D460EF2A19AA6A0027A163 /* DetailEditView.swift */; };
 		04D460F22A19AD4D0027A163 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D460F12A19AD4D0027A163 /* ThemeView.swift */; };
 		04D460F42A19ADAB0027A163 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D460F32A19ADAB0027A163 /* ThemePicker.swift */; };
+		04D5B1CB2A1E56200064D4AA /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04D5B1CA2A1E56200064D4AA /* ding.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		04D460EF2A19AA6A0027A163 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		04D460F12A19AD4D0027A163 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		04D460F32A19ADAB0027A163 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		04D5B1CA2A1E56200064D4AA /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				04621F442A1E42C900D9C769 /* Info.plist */,
 				04043A892A18ED7200172E63 /* Models */,
 				04621F482A1E452F00D9C769 /* Scenes */,
+				04D5B1C92A1E55A70064D4AA /* Resources */,
 				04043A7F2A18DC6D00172E63 /* Assets.xcassets */,
 				04043A812A18DC6D00172E63 /* Preview Content */,
 			);
@@ -194,6 +197,14 @@
 			path = HistoryView;
 			sourceTree = "<group>";
 		};
+		04D5B1C92A1E55A70064D4AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04D5B1CA2A1E56200064D4AA /* ding.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -252,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D5B1CB2A1E56200064D4AA /* ding.wav in Resources */,
 				04043A832A18DC6D00172E63 /* Preview Assets.xcassets in Resources */,
 				04043A802A18DC6D00172E63 /* Assets.xcassets in Resources */,
 			);
@@ -414,9 +426,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ComposableScrumdinger/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ComposableScrumdinger/Info.plist;
@@ -434,6 +448,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hassan.ComposableScrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,9 +460,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ComposableScrumdinger/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ComposableScrumdinger/Info.plist;
@@ -465,6 +482,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hassan.ComposableScrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
